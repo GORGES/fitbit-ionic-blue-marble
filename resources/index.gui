@@ -1,0 +1,24 @@
+<svg id="page">
+  <!-- 348x250 -->
+  <image id="background" href="background.png" x="0" y="0" width="100%" height="100%" fill="#000000" />
+  <!-- time -->
+  <text id="timeLeft" class="time">12:00</text>
+  <text id="timeRight" class="time">12:00</text>
+  <text id="timeTop" class="time">12:00</text>
+  <text id="timeBottom" class="time">12:00</text>
+  <text id="time" class="time">12:00</text>
+  <!-- date -->
+  <text id="dateLeft" class="date">                        </text>
+  <text id="dateRight" class="date">                        </text>
+  <text id="dateTop" class="date">                        </text>
+  <text id="dateBottom" class="date">                        </text>
+  <text id="date" class="date">                        </text>
+  <!-- battery -->
+  <rect id="batteryFill" x="5" y="107" width="18" height="70" fill="black" />
+  <image id="battery" href="battery.png" x="5" y="100" width="18" height="80" />
+  <!-- top-right button area -->
+  <use id="button" href="#combo-button-upper-right" fill="fb-white">
+    <set href="combo-button-icon" attributeName="href" to="blank.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="blank.png"/>
+  </use>
+</svg>

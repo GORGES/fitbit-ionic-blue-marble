@@ -1,0 +1,78 @@
+svg {
+  viewport-fill: black;
+  /*font-family: System-Bold;*/
+  font-family: Seville-Bold;
+}
+
+#background {
+}
+
+.time {
+  font-size: 100;
+  text-length: 48;
+}
+
+#time {
+  x: 2%;
+  y: 97%;
+  fill: white;
+}
+
+#timeLeft {
+  x: 2%-2;
+  y: 97%-2;
+  fill: black;
+}
+
+#timeRight {
+  x: 2%+2;
+  y: 97%-2;
+  fill: black;
+}
+
+#timeTop {
+  x: 2%-2;
+  y: 97%+2;
+  fill: black;
+}
+
+#timeBottom {
+  x: 2%+2;
+  y: 97%+2;
+  fill: black;
+}
+
+.date {
+  font-size: 40;
+  text-length: 32;
+}
+
+#date {
+  x: 2%;
+  y: 13%;
+  fill: yellow;
+}
+
+#dateLeft {
+  x: 2%-2;
+  y: 13%-2;
+  fill: black;
+}
+
+#dateRight {
+  x: 2%+2;
+  y: 13%-2;
+  fill: black;
+}
+
+#dateTop {
+  x: 2%-2;
+  y: 13%+2;
+  fill: black;
+}
+
+#dateBottom {
+  x: 2%+2;
+  y: 13%+2;
+  fill: black;
+}
